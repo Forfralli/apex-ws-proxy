@@ -1,0 +1,15 @@
+{
+  "name": "apex-ws-proxy",
+  "version": "1.0.0",
+  "description": "WebSocket → SSE proxy for Apex Timing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
